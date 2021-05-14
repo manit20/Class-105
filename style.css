@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+}
+
+#result_object_name, #object_accuracy{
+    color: blueviolet;
+}
+
+#heading{
+    background-color: blue;
+    color: aquamarine ;
+}
