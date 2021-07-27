@@ -33,6 +33,6 @@ function gotResults(error, results){
     else{
         console.log(results);
         document.getElementById("result_object_name").innerHTML = results[0].label;
-        document.getElementById("object_accuracy").innerHTML = results[0].confidence.toFix(3);
+        document.getElementById("object_accuracy").innerHTML = results[0].confidence.toFixed(3);
     }
 }
